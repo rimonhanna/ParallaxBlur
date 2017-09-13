@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ParallaxBlur"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "Easy to subclass parallax UITableController w/ blurring image header, floating header, and UIScrollView for content"
   s.homepage         = "https://github.com/pyro2927/ParallaxBlur"
   s.screenshots      = "https://raw.githubusercontent.com/pyro2927/ParallaxBlur/master/preview.gif"
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes'
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'FXBlurView', '~> 1.6.2'
+  s.dependency 'FXBlurView', '~> 1.6.4'
 end

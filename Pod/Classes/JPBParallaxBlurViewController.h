@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+
 @protocol JPBParallaxBlurInteractionsDelegate;
+
 
 @interface JPBParallaxBlurViewController : UIViewController
 
