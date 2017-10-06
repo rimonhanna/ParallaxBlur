@@ -18,6 +18,7 @@
 - (void)addHeaderOverlayView:(UIView*)overlay;
 - (CGFloat)headerHeight;
 - (UIScrollView*)mainScrollView;
+- (UIWebView*)contentView;
 
 /**
  *  This should be called whenever the content size of the scrollview need to be adjusted.
