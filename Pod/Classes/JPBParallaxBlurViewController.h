@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 
 @protocol JPBParallaxBlurInteractionsDelegate;
@@ -18,7 +19,7 @@
 - (void)addHeaderOverlayView:(UIView*)overlay;
 - (CGFloat)headerHeight;
 - (UIScrollView*)mainScrollView;
-- (UIWebView*)contentView;
+- (WKWebView*)contentView;
 
 /**
  *  This should be called whenever the content size of the scrollview need to be adjusted.

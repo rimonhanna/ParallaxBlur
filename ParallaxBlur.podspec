@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ParallaxBlur"
-  s.version          = "0.1.7"
+  s.version          = "0.2.0"
   s.summary          = "Easy to subclass parallax UITableController w/ blurring image header, floating header, and UIScrollView for content"
   s.homepage         = "https://github.com/pyro2927/ParallaxBlur"
   s.screenshots      = "https://raw.githubusercontent.com/pyro2927/ParallaxBlur/master/preview.gif"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/pyro2927/ParallaxBlur.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/pyro2927'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'

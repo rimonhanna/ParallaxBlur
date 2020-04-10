@@ -17,7 +17,7 @@
     UIImageView *_blurredImageView;
     UIImage *_originalImageView;
     UIView *_scrollViewContainer;
-    UIWebView *_contentView;
+    WKWebView *_contentView;
     
     NSMutableArray *_headerOverlayViews;
 }
@@ -150,8 +150,8 @@ static CGFloat HEADER_HEIGHT = 60.0f;
     }
 }
 
-- (UIWebView*)contentView{
-    UIWebView *contentView = [[UIWebView alloc] initWithFrame:CGRectZero];
+- (WKWebView*)contentView{
+    WKWebView *contentView = [[WKWebView alloc] initWithFrame:CGRectZero];
     contentView.scrollView.scrollEnabled = NO;
     return contentView;
 }
